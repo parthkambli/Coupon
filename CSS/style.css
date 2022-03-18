@@ -1,0 +1,197 @@
+/* Coupon */
+.Coupon {
+  text-align: center;
+  height: 375px;
+  width: 600px;
+  background-image: url("https://i.ibb.co/px2V391/Coupon.jpg");
+  z-index: 100;
+  margin: auto;
+  position: absolute;
+}
+
+/* BACKGROUND IMAGE */
+
+.banner-image {
+  background-image: url("https://i.ibb.co/kXTGqBK/BG.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+/* HOME */
+
+.main-container {
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+.title {
+  margin: 20px;
+}
+
+.Home-Title {
+  margin: 0px;
+}
+
+/* SEARCH */
+
+.search-box {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+}
+
+.job-keyword {
+  height: 70px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.job-location {
+  height: 70px;
+}
+
+.job-submit {
+  height: 70px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #072227;
+}
+
+.job-submit:hover {
+  background-color: #35858b;
+  /* border: 2px dotted #072227; */
+}
+
+.job-submit span {
+  font-size: larger;
+}
+/* Job BY Categoru */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Job By Location */
+.City-img {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Mumbai-img {
+  background-image: url("https://i.ibb.co/Hx0LH0q/Mumbai.jpg");
+}
+
+.Pune-img {
+  background-image: url("https://i.ibb.co/tswVcGr/Pune.jpg");
+}
+
+.Delhi-img {
+  background-image: url("https://i.ibb.co/P9nSgPc/Delhi.jpg");
+}
+
+.Chennai-img {
+  background-image: url("https://i.ibb.co/3z0dQK6/Chennai.jpg");
+}
+
+.Bengaluru-img {
+  background-image: url("https://i.ibb.co/JnD90jx/Bengaluru.jpg");
+}
+
+.Hyderabad-img {
+  background-image: url("https://i.ibb.co/pdswspm/Hyderabad.jpg");
+}
+
+.City-card {
+  border: 0px;
+}
+
+/* Registered Company */
+
+.Company-img {
+  height: 150px;
+}
+
+@media screen and (max-width: 773px) and (min-width: 576px) {
+  .job-submit span {
+    /* visibility: hidden; */
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 426px) {
+  .input-group > .form-control,
+  .input-group > .form-select {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .job-keyword {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .job-location {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .job-submit {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .search-box {
+    border-radius: 5px;
+  }
+
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+  .input-group:not(.has-validation)
+    > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner-image {
+    background-size: 100% 100%;
+    height: 70vh;
+  }
+  .main-container {
+    margin-top: 60px;
+  }
+  .title {
+    margin: 5px 20px;
+  }
+  .Home-Title {
+    line-height: 1;
+  }
+  .Home-Subtitle {
+    font-size: 1rem;
+    margin: 0px;
+  }
+}
